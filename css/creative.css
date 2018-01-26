@@ -41,7 +41,9 @@ h6 {
 .bg-primary {
   background-color: #F05F40 !important;
 }
-
+.bg-dogs {
+  background-color: rgb(62, 90, 135) !important;
+}
 .bg-dark {
   background-color: #212529 !important;
 }
@@ -169,7 +171,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/header 2.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
