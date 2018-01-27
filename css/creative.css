@@ -11,7 +11,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40;
+  border-color: rgb(35, 78, 147);
 }
 
 hr.light {
@@ -42,7 +42,7 @@ h6 {
   background-color: #F05F40 !important;
 }
 .bg-dogs {
-  background-color: rgb(62, 90, 135) !important;
+  background-color: rgb(141, 169, 214) !important;
 }
 .bg-dark {
   background-color: #212529 !important;

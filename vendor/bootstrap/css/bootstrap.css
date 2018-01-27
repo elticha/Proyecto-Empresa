@@ -7508,6 +7508,7 @@ button.bg-dark:focus {
 .mt-4,
 .my-4 {
   margin-top: 1.5rem !important;
+    color: rgb(35, 78, 147);
 }
 
 .mr-4,
