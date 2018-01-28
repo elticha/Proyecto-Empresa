@@ -61,8 +61,8 @@ h6 {
 
 .bg-cats{
     /*background-color: rgb(141, 169, 214) !important;*/
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
+  padding-top: 20rem;
+  padding-bottom: calc(20rem - 56px);
   background-image: url("../img/bg_cats.jpg");
   height: 100%;
   background-position: center center;
@@ -71,12 +71,43 @@ h6 {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.bg-anuncio-dispensador{
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-color: black;
+  height: 100%;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .bg-dark {
   background-color: #212529 !important;
 }
 
+.bg-productos{
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/header%204.jpg");
+  height: auto;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
+}
+
+.producto-img{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
 }
 
 section {
