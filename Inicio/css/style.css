@@ -115,7 +115,7 @@ a:hover {
   display: table;
   position: relative;
   background-image: url(../img/Inicio-fondo.jpg);
-  background-size: 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   padding: 95px 0;
   color: #fff;
@@ -157,6 +157,11 @@ a:hover {
   font-size: 26px;
   margin: 45px 0 75px 0;
   color: #fff;
+}
+@media (max-width: 450px) {
+  .hero{
+    background-size: 149% 100%;
+  }
 }
 
 /* ==================================================
@@ -469,6 +474,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 490px;
   overflow: hidden;
   padding-top: 85px;
+  background-size: 100% 120%;
 }
 
 .block h2 {
@@ -580,9 +586,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   .cta {
     padding: 35px 0;
   }
-  .features {
-    padding-bottom: 5px;
-  }
   p,
   .block p {
     margin: 0;
@@ -616,22 +619,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   .block {
     height: auto;
   }
-  .feature-col {
-    padding-bottom: 30px;
-  }
-  .portfolio-grid .card h3.card-title {
-    font-size: 18px !important;
-  }
-  .portfolio-grid .card .card-text {
-    font-size: 13px;
-  }
-  .team .team-over {
-    padding-top: 20px;
-  }
-  .team .card .social-nav {
-    margin-bottom: 15px;
-    padding: 0;
-  }
   .site-footer .social-nav {
     margin-bottom: 35px;
   }
@@ -642,6 +629,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   .site-footer .list-inline li {
     display: inline-block;
   }
+  #img-pug{
+    position: relative;
+    bottom: -2.3em;
+  }
+    .block{
+      background-size: 100% 140%;
+    }
 }
 
 @media (max-width: 767px) {
@@ -659,11 +653,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #parallaxXD{
   padding: 0;
+  width: 100%;
 }
 #img-pug{
-  width: 600px;
-  height: 295px;
-
+  width: 45%;
+  height: 72%;
+}
+@media (max-width: 450px) {
+  #img-pug{
+    position: relative;
+    bottom: -2.3em;
+  }
+}
+@media (max-width: 345px) {
+  #img-pug{
+    position: relative;
+    bottom: -2.3em;
+  }
 }
 #img-parallaxJEJE{
   width: 100%;
